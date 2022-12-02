@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MenuView.EmployeeMenu.MenuEmployees">
+   <children>
+      <ImageView blendMode="SRC_ATOP" fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@EmployeeMenuBackground.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="46.0" layoutY="81.0" mnemonicParsing="false" text="See bookings" />
+      <Button layoutX="46.0" layoutY="127.0" mnemonicParsing="false" text="Update bookings" />
+      <Button layoutX="46.0" layoutY="175.0" mnemonicParsing="false" text="Delete booking" />
+      <Button layoutX="46.0" layoutY="222.0" mnemonicParsing="false" text="See users" />
+   </children>
+</AnchorPane>
